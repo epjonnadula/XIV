@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/theme"
+    tools:context="innovision.jonnadulaprithvi.xiv.HistoryActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/scrollView">
+
+    </ScrollView>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignBottom="@+id/scrollView">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:background="#c0c0c0">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Event Name" />
+            <TextView
+                android:id="@+id/number_of_times_played"
+                android:text="History"
+                android:textAlignment="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Last Pick" />
+            <TextView
+                android:id="@+id/event0"
+                android:text="0"
+                android:textAlignment="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Dart" />
+            <TextView
+                android:id="@+id/event1"
+                android:text="0"
+                android:textAlignment="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Geometric Dumbsherads" />
+            <TextView
+                android:id="@+id/event2"
+                android:text="0"
+                android:textAlignment="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Brownian Tennis" />
+            <TextView
+                android:id="@+id/event3"
+                android:text="0"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Greedy Knight" />
+            <TextView
+                android:id="@+id/event4"
+                android:text="0"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Irrelevant Answer" />
+            <TextView
+                android:id="@+id/event5"
+                android:text="0"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Tag Throw" />
+            <TextView
+                android:id="@+id/event6"
+                android:text="0"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Electric Fence" />
+            <TextView
+                android:id="@+id/event7"
+                android:text="0"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Pin The Tail" />
+            <TextView
+                android:id="@+id/event8"
+                android:text="0"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Pass The Bomb" />
+            <TextView
+                android:id="@+id/event9"
+                android:text="0"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Spoon Sault" />
+            <TextView
+                android:id="@+id/event10"
+                android:text="0"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Black Jack" />
+            <TextView
+                android:id="@+id/event11"
+                android:text="0"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Swing Hit" />
+            <TextView
+                android:id="@+id/event12"
+                android:text="0"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Lucky Seven" />
+            <TextView
+                android:id="@+id/event13"
+                android:text="0"
+                android:textAlignment="center"/>
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
