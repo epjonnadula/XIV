@@ -1,5 +1,5 @@
 # XIV
-This is an android application which was developed by me during my college(National Institute of Tecnology, Rourkela) tech fest Innovisosn 2016.
+This is an android application which was developed by me during my college(National Institute of Tecnology, Rourkela) tech fest Innovision 2016.
 
 This application is used in an event called XIV(Fourteen) in which user can play 14 games.
 
